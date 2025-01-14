@@ -94,7 +94,7 @@ export default function Page() {
           </View>
         </XStack>
         <TextArea
-          value={bio}
+          value={bio || ''}
           bg="white"
           placeholder="Add an optional bio"
           p="$1"
